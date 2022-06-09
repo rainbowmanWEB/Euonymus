@@ -1,0 +1,17 @@
+.header__menu-elem {
+    align-self: baseline;
+    padding: 0 6px;
+    position: relative;
+
+    &::after {
+        content: "";
+        border-right: 1px solid $header__menu-link___color;
+        left: 6px;
+        position: relative;
+    }
+
+    &:last-child::after {
+        content: "";
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+.header__nav-link {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $header__logo-text___color;
+    padding: 11px 16px 21px!important;
+
+    &:hover {
+        color: $header__menu-link___color;
+    }
+
+    &::before {
+        content: "";
+        border-right: 1px solid $header__nav-link___before;
+        right: 16px;
+        position: relative;
+    }
+}

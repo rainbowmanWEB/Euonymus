@@ -1,0 +1,21 @@
+.header__logo-h1 {
+    font-size: 26px;
+    line-height: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    color: $header__logo-h1___color;
+
+    &::first-letter {
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    &::after {
+        content: "";
+        height: 35px;
+        border-right: 1px solid $header__logo-h1___color;
+        position: relative;
+        left: 15px;
+        display: inline-block;
+    }
+}

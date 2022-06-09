@@ -1,0 +1,14 @@
+.header__search-form-input {
+    font-size: 12px;
+    line-height: 14.4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: $header__search-form-input___color;
+    padding: 12px 9px;
+    border: 0;
+    width: 220px;
+
+    &::placeholder {
+        color: $header__search-form-input___color;
+    }
+}

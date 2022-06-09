@@ -1,0 +1,11 @@
+.header__menu-wrap {
+    flex-basis: 100%;
+    padding-top: 10px;
+}
+
+@media (min-width: 540px) {
+    .header__menu-wrap {
+        flex-basis: auto;
+        padding: 0;
+    }
+}
