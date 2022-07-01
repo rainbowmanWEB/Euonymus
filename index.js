@@ -6,3 +6,4 @@ import './images/google-plus.svg';
 import './images/pinterest.svg';
 import './images/rss.svg';
 import './images/twitter.svg';
+import './images/slider-image.jpg';

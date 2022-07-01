@@ -1,0 +1,14 @@
+.carousel-main__text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $carousel-main__text___color;
+    margin-top: 10px;
+}
+
+@media (min-width: 968px) {
+    .carousel-main__text {
+        margin-top: 24px;
+    }
+}

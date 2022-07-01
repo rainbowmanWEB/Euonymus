@@ -1,0 +1,9 @@
+.carousel-main .carousel-main__indicators-button {
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    opacity: 0.3;
+    background: $carousel-main__indicators-button___bg;
+    border: 3px solid $carousel-main__indicators-button___bg;
+}

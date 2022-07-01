@@ -1,0 +1,15 @@
+.carousel-main__caption {
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    left: auto;
+    padding: 12px 20px;
+    text-align: left;
+    background-color: $carousel-main__caption___bg;
+}
+
+@media (min-width: 968px) {
+    .carousel-main__caption {
+        padding: 22px 30px;
+    }
+}
