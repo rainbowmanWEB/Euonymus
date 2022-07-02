@@ -1,0 +1,14 @@
+.carousel-mini__link {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19.2px;
+    color: $carousel-mini__link___color;
+}
+
+@media (min-width: 768px) {
+    .carousel-mini__link {
+        font-size: 16px;
+    }
+}

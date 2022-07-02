@@ -1,5 +1,7 @@
 import './vendor/bootstrap5/bootstrap.bundle.min.js';
 import './vendor/bootstrap5/bootstrap.min.css';
+import './vendor/OwlCarousel2-2.3.4/dist/owl.carousel.js';
+import './vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css';
 import './scss/main.scss';
 import './js/main.js';
 import './images/google-plus.svg';
@@ -7,3 +9,5 @@ import './images/pinterest.svg';
 import './images/rss.svg';
 import './images/twitter.svg';
 import './images/slider-image.jpg';
+import './images/image-48x48.jpg';
+import './blocks/carousel-mini/js/carousel-mini.js';

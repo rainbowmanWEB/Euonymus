@@ -1,0 +1,21 @@
+.carousel-mini .owl-nav {
+    float: right;
+
+    button {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: $carousel-mini__owl-nav___bg!important;
+        color: $carousel-mini__owl-nav___color!important;
+        position: relative;
+        margin-left: 7px;
+
+        span {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -59%);
+            font-size: 25px;
+        }
+    }
+}
