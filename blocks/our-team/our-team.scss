@@ -1,3 +1,10 @@
 .our-team {
     border: 0;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .our-team {
+        margin-bottom: 50px;
+    }
 }

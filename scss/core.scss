@@ -8,7 +8,7 @@ body {
 }
 
 .wrap {
-	@include min-max (1030px, 320px);
+	@include min-max (960px, 320px);
 	margin: auto;
 }
 
