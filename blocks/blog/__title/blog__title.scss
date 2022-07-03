@@ -1,0 +1,16 @@
+.blog__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12.4px;
+    color: $blog__title___color;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .blog__title {
+        font-size: 16px;
+        line-height: 22.4px;
+        margin-top: 20px;
+    }
+}

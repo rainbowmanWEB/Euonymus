@@ -1,0 +1,11 @@
+.blog__elem {
+    border: 0;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+    .blog__elem {
+        margin-top: 0;
+    }
+}

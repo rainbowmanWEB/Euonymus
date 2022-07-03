@@ -11,3 +11,4 @@ import './images/twitter.svg';
 import './images/slider-image.jpg';
 import './images/image-48x48.jpg';
 import './blocks/carousel-mini/js/carousel-mini.js';
+import './images/image-225x125.jpg';

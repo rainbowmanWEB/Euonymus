@@ -1,0 +1,16 @@
+.blog__job-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13.4px;
+    color: $blog__job-title___color;
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    .blog__text {
+        font-size: 11px;
+        line-height: 15.4px;
+        margin-top: 10px;
+    }
+}

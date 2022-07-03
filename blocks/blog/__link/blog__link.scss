@@ -1,0 +1,18 @@
+.blog__link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: $blog__link___color!important;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .blog__text {
+        font-size: 13px;
+        line-height: 13px;
+        margin-top: 16px;
+    }
+}
