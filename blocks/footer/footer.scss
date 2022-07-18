@@ -1,4 +1,11 @@
 .footer {
     background: $footer___bg;
     border-top: 5px solid $footer___bc;
+    padding: 0 5px;
+}
+
+@media (min-width: 480px) {
+    .footer {
+        padding: 0 20px;
+    }
 }

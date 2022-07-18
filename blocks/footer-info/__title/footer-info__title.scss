@@ -1,0 +1,16 @@
+.footer-info__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12.4px;
+    text-transform: uppercase;
+    color: $footer-info__title___color;
+    margin-bottom: 23px;
+}
+
+@media (min-width: 768px) {
+    .footer-info__title {
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+}

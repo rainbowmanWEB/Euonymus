@@ -1,0 +1,22 @@
+.footer-info__blog-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.4px;
+    text-transform: uppercase;
+    color: $footer-info__blog-link___color;
+    display: block;
+    text-decoration: none;
+    padding-right: 15px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-info__blog-link {
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+}

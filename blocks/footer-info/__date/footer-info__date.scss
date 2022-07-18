@@ -1,0 +1,15 @@
+.footer-info__date {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10x;
+    color: $footer-info__date___color;
+}
+
+@media (min-width: 768px) {
+    .footer-info__date {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

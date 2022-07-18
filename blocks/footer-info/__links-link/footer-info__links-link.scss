@@ -1,0 +1,19 @@
+.footer-info__links-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: $footer-info__links-link___color;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-info__links-link {
+        font-size: 12px;
+        line-height: 27.6px;
+    }
+}

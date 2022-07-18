@@ -1,0 +1,19 @@
+.footer__copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: $footer__copyright___color;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .footer__copyright {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 25px 20px;
+    }
+}

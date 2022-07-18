@@ -1,0 +1,11 @@
+.footer-info {
+    border-top: 1px solid $footer-info___bt;
+    border-bottom: 1px solid $footer-info___bt;
+    padding: 20px 10px 30px 10px;
+}
+
+@media (min-width: 768px) {
+    .footer-info {
+        padding: 40px 10px 50px 10px;
+    }
+}
